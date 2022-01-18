@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="test.Login_TC003">
+        <methods>
+          <include name="AdminLogin"/>
+          <include name="tearDown"/>
+          <include name="intialization"/>
+        </methods>
+      </class> <!-- test.Login_TC003 -->
+      <class name="test.Login_TC001">
+        <methods>
+          <include name="Login_flow"/>
+        </methods>
+      </class> <!-- test.Login_TC001 -->
+      <class name="test.Login_TC005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="managerLogin"/>
+          <include name="intialization"/>
+        </methods>
+      </class> <!-- test.Login_TC005 -->
+      <class name="test.Login_TC002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dev_userLogIn"/>
+          <include name="intialization"/>
+        </methods>
+      </class> <!-- test.Login_TC002 -->
+      <class name="test.Login_TC004">
+        <methods>
+          <include name="SuperAdminLogin"/>
+          <include name="intialization"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.Login_TC004 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TC002(failed)">
+    <classes>
+      <class name="test.Login_TC002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dev_userLogIn"/>
+          <include name="intialization"/>
+        </methods>
+      </class> <!-- test.Login_TC002 -->
+    </classes>
+  </test> <!-- TC002(failed) -->
+</suite> <!-- Failed suite [Suite] -->
